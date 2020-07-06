@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>wautopersonal</class>
+ <widget class="QMainWindow" name="wautopersonal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>876</width>
+    <height>396</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>персонал</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QPushButton" name="vstavkadata">
+        <property name="text">
+         <string>вставить данные</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>журнал</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="verticalGroupBox_2">
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+               </property>
+               <property name="text">
+                <string>персонал</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_13">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_25">
+                 <item>
+                  <widget class="QPushButton" name="addrowpersonal">
+                   <property name="text">
+                    <string>добаить строку</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="resettingcellpersonal">
+                   <property name="text">
+                    <string>сброс ячейки</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="resettingrowpersonal">
+                   <property name="text">
+                    <string>сброс строки</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="potvergeniepersonal">
+                   <property name="text">
+                    <string>потверждение</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="deletepersonal">
+                   <property name="text">
+                    <string>пометить на удаление</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <widget class="QTableView" name="personal"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_32"/>
+        </item>
+        <item alignment="Qt::AlignRight">
+         <widget class="QGroupBox" name="verticalGroupBox">
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item alignment="Qt::AlignTop">
+            <widget class="QWidget" name="horizontalWidget_2" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <spacer name="horizontalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_27">
+                <property name="text">
+                 <string>выборка</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_4">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignTop">
+            <widget class="QWidget" name="widget" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_24">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_41">
+                <item>
+                 <widget class="QLabel" name="label_28">
+                  <property name="text">
+                   <string>номер</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_29">
+                  <property name="text">
+                   <string>имя</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_30">
+                  <property name="text">
+                   <string>Фамилия</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_31">
+                  <property name="text">
+                   <string>Отчествво</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_48">
+                <item>
+                 <widget class="QLineEdit" name="apid">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="name">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lastname">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="thirdname">
+                  <property name="enabled">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>876</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>меню и справка</string>
+    </property>
+    <widget class="QMenu" name="menu_2">
+     <property name="title">
+      <string>таблицы</string>
+     </property>
+     <widget class="QMenu" name="menu_3">
+      <property name="title">
+       <string>справочник</string>
+      </property>
+      <addaction name="journal"/>
+      <addaction name="avto"/>
+     </widget>
+     <widget class="QMenu" name="menu_4">
+      <property name="title">
+       <string>журнал</string>
+      </property>
+      <addaction name="routes"/>
+     </widget>
+     <addaction name="menu_3"/>
+     <addaction name="menu_4"/>
+     <addaction name="printer"/>
+    </widget>
+    <addaction name="avtor"/>
+    <addaction name="menu_2"/>
+    <addaction name="separator"/>
+    <addaction name="info"/>
+    <addaction name="spravka"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="avtor">
+   <property name="text">
+    <string>авторизация</string>
+   </property>
+  </action>
+  <action name="info">
+   <property name="text">
+    <string>инфо</string>
+   </property>
+  </action>
+  <action name="spravka">
+   <property name="text">
+    <string>спрака</string>
+   </property>
+  </action>
+  <action name="journal">
+   <property name="text">
+    <string>журнал маршрутов</string>
+   </property>
+  </action>
+  <action name="avto">
+   <property name="text">
+    <string>авто</string>
+   </property>
+  </action>
+  <action name="routes">
+   <property name="text">
+    <string>маршруты</string>
+   </property>
+  </action>
+  <action name="printer">
+   <property name="text">
+    <string>печать таблицы</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
