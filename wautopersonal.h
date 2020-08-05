@@ -16,6 +16,8 @@ public:
     explicit wautopersonal(QWidget *parent = nullptr);
     ~wautopersonal();
 
+public: QMap<QString, QString> sal;
+
 private slots:
     void on_avtor_triggered();
 
@@ -24,7 +26,7 @@ private slots:
 
     void on_avto_triggered();
 
-    void on_vstavkadata_clicked();
+   // void on_vstavkadata_clicked();
 
     void on_personal_clicked(const QModelIndex &index);
 
@@ -46,9 +48,12 @@ private slots:
 
     void on_printer_triggered();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::wautopersonal *ui;
     QSqlRelationalTableModel* apmodel;
+     QSqlQueryModel* salary;
 };
 
 #endif // WAUTOPERSONAL_H
